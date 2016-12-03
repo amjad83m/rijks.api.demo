@@ -76,6 +76,34 @@ img {
     border: 1px solid #cccccc;
     font-weight: bold;
     padding: 8px 4px;
-    font-size: 20px;
+    font-size: 12px;
     color: #E98977;
+    min-width: 180px;
+}
+
+@media screen and (min-width: 480px) {
+    #query {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #query {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #query {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #query {
+        font-size: 20px;
+    }
+    #wrapper {
+        width: 1024px;
+    }
 }
